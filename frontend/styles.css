@@ -1,0 +1,40 @@
+body {
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.3); /* Transparent background */
+    border-radius: 10px;
+    padding: 20px; /* Adjust padding for smaller form */
+  }
+  
+  .btn {
+    border-radius: 20px;
+  }
+  
+  .bt1 {
+    background-color: #fea116;
+    border-color:#fea116;
+  }
+  
+  .bt1:hover {
+    background-color: #ce8313;
+    border-color: #ce8313;
+  }
+  
+  .text-white {
+    color: #ffffff !important;
+  }
+  
+  

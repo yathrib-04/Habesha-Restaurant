@@ -1,0 +1,64 @@
+body {
+  background: url('bg-db.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px; /* Set maximum width for the container */
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.3); /* Transparent background */
+  border-radius: 10px;
+  padding: 20px; /* Adjust padding for smaller form */
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+  color: #ffffff; /* Set table text color to white */
+}
+
+.table-hover tbody tr:hover {
+  background-color: transparent; /* Remove hover effect */
+}
+
+thead th {
+  border: none;
+}
+
+thead th:first-child {
+  border-top-left-radius: 10px;
+}
+
+thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.font-weight-bold {
+  color: #fff;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
