@@ -1,5 +1,5 @@
 
-# Restaurant Order Management System 
+# Habesha Restaurant 
 
 A full-stack web application for managing restaurant orders, customers, and administration, built with NestJS (backend) and a modern HTML/CSS/JS frontend.
 
