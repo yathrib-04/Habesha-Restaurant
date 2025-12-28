@@ -60,9 +60,8 @@ A full-stack web application for managing restaurant orders, customers, and admi
 1. Open the `frontend/customer/index.html` or `frontend/admin/admin-index.html` in your browser.
 
 ## Team Members
-
+- Teyiba Aman
 - Ekram Shemsu
 - Entisar Elias
 - Hikma Oumer
-- Teyiba Aman
 - Yeabsira Abiy
