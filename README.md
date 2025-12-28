@@ -1,67 +1,91 @@
+# Habesha Restaurant 🍽️
 
-# Habesha Restaurant 
+A full-stack web application for an Ethiopian restaurant that allows customers to browse the menu and place food orders online, while enabling administrators to manage orders efficiently. Built with a NestJS backend and a modern, responsive frontend.
 
-A full-stack web application for managing restaurant orders, customers, and administration, built with NestJS (backend) and a modern HTML/CSS/JS frontend.
+## ✨ Features
 
----
+### Customer
+- Browse the restaurant menu with images and descriptions  
+- Place food orders online with customer details and special requests  
+- View restaurant information, services, testimonials, and contact details  
+- Fully responsive design for mobile and desktop  
 
-## Features 
+### Admin
+- Secure admin dashboard  
+- View and manage customer orders  
+- Track order details and statistics  
 
-- **Customer Interface:**  
-  - View menu, book tables, contact the restaurant, and read testimonials.
-- **Admin Interface:**  
-  - Manage orders, view analytics, and handle restaurant operations.
-- **Order Management:**  
-  - Create, read, update, and delete restaurant orders.
-- **Authentication:**  
-  - Secure login and access using JWT.
-- **Responsive Design:**  
-  - Modern, mobile-friendly UI using Bootstrap and SCSS.
-- **Database Integration:**  
-  - Uses TypeORM for database operations (MySQL/PostgreSQL supported).
+### Backend
+- RESTful API for order management (CRUD)  
+- Database integration using TypeORM  
+- CORS enabled for frontend-backend communication  
+- Type-safe development with TypeScript  
 
----
+## 🛠 Tech Stack
 
-## Tech Stack
+**Backend**
+- NestJS  
+- TypeScript  
+- TypeORM  
+- MySQL (PostgreSQL supported)  
 
-- **Backend:** NestJS, TypeScript, TypeORM, JWT, Passport, MySQL/PostgreSQL
-- **Frontend:** HTML, CSS, SCSS, Bootstrap, JavaScript
-- **Testing:** Jest
+**Frontend**
+- HTML5  
+- CSS / Bootstrap 5  
+- JavaScript / TypeScript  
 
-
-
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Node.js (v16+ recommended)
-- npm or yarn
-- MySQL or PostgreSQL database
+- Node.js (v16 or higher recommended)  
+- npm or yarn  
+- MySQL or PostgreSQL database  
 
 ### Backend Setup
 
 1. Install dependencies:
-    ```sh
-    cd backend
-    npm install
-    ```
-2. Configure your database in `ormconfig.js` or `ormconfig.ts`.
-3. Run database migrations (if any):
-    ```sh
-    npm run typeorm migration:run
-    ```
-4. Start the backend server:
-    ```sh
-    npm run start:dev
-    ```
+   ```sh
+   cd backend
+   npm install
+Configure the database connection in ormconfig.js or ormconfig.ts.
 
-### Frontend Setup
+Run database migrations (if applicable):
 
-1. Open the `frontend/customer/index.html` or `frontend/admin/admin-index.html` in your browser.
+npm run typeorm migration:run
 
-## Team Members
-- Teyiba Aman
-- Ekram Shemsu
-- Entisar Elias
-- Hikma Oumer
-- Yeabsira Abiy
+
+Start the backend server:
+
+npm run start:dev
+
+
+Backend runs at:
+
+http://localhost:3000
+
+Frontend Setup
+
+Open the frontend directly in your browser:
+
+Customer interface: frontend/customer/index.html
+
+Admin dashboard: frontend/admin/admin-index.html
+👥 Team Members
+
+Teyiba Aman
+
+Ekram Shemsu
+
+Entisar Elias
+
+Hikma Oumer
+
+Yeabsira Abiy
+
+📝 Notes
+
+TypeORM synchronize is enabled for development; disable it in production
+
+CORS is enabled for development; configure it properly for production
+
+Authentication is partially configured and should be reviewed before production use
