@@ -59,7 +59,7 @@ Start the backend server:
 npm run start:dev
 
 
-Backend runs at:
+-Backend runs at:
 
 http://localhost:3000
 
@@ -70,22 +70,16 @@ Open the frontend directly in your browser:
 Customer interface: frontend/customer/index.html
 
 Admin dashboard: frontend/admin/admin-index.html
+
 👥 Team Members
-
 Teyiba Aman
-
 Ekram Shemsu
-
 Entisar Elias
-
 Hikma Oumer
-
 Yeabsira Abiy
 
 📝 Notes
 
 TypeORM synchronize is enabled for development; disable it in production
-
 CORS is enabled for development; configure it properly for production
-
 Authentication is partially configured and should be reviewed before production use
